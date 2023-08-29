@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="updel.css">
+</head>
+<body>
+    <button onclick="history.back()">back</button>
+    <div class="center">
+        <h1>UPDATE DETAILS</h1>
+        <form action="FOODupdate.php" method="post">
+            <div class="txt_field">
+                <p><strong>FOOD ID:</strong></p>
+                <input type="text" name="FOOD_ID" >
+            </div>
+            <div class="txt_field">
+                <p><strong>FOOD TYPE:</strong></p>
+                <input type="text" name="FOOD_TYPE">
+            </div>
+            <div class="txt_field">
+                <p><strong>QUANTITY:</strong></p>
+                <input type="text" name="QUANTITY">
+            </div>
+            <input type="submit" value="UPDATE"> 
+        </form>
+    </div>
+    <div class="center1">
+        <h1>DELETE DETAILS</h1>
+        <form action="fooddelete.php" method="post">
+            <div class="txt_field">
+                <p><strong>FOOD ID:</strong></p>
+                <input type="text" name='FOOD_ID'  >
+            </div>
+            <input type="submit" value="DELETE"> 
+        </form>
+    </div>
+</body>
+</html>
+

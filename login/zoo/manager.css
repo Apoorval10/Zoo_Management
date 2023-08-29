@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+     Overflow:scroll;
+      min-height: 100vh;
+      width:100%;
+      background-image:url(backg.jpg);
+      background-position:center;
+      background-size: cover;
+      position : relative;
+  }
+  .btn2{
+    border: 1px solid #060606;
+    background-color: #e76464;
+    opacity: 50%;
+    padding: 10px 1000px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.8s;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -300px;
+  }
+  .center1{
+    position: absolute;
+    left: 750px;
+    top: -200px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+
+  table {
+    margin: 0 auto;
+    font-size: large;
+    background-color: #fcfdfc;
+    border: 1px solid rgb(7, 7, 7);
+    opacity:70%;
+  }
+  h2 {
+    /* background-color: #fcfdfc; */
+    color: #dfe8df;
+    text-align: center;
+    font-size:large;
+    opacity:70%;
+  
+  }
+  
+  td {
+    background-color: #f9fbf8;
+    border: 1px solid black;
+  }
+  
+  th,
+  td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  td {
+    font-weight: lighter;
+  }
+  .header1{
+    position: absolute;
+    /* margin-left:50px;
+    margin-top: 500px; */
+    top: 650px;
+    left:800px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+  h1 {
+    background-color: #fcfdfc;
+    color: #dfe8df;
+    text-align: center;
+    font-size:large;
+    opacity:70%;
+  }
+  .header1 input{
+    width: 100%;
+
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .container{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 300px;
+  }
+  .container01{
+    color: aliceblue;
+    text-align: center;
+    /* margin-top: 1000px; */
+  }
+  .h1{
+    text-align: top;
+    margin-top: 300px;
+  }
+  .btn{
+    border: 1px solid #060606;
+    background-color: #060606;
+    opacity: 50%;
+    padding: 20px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn1,.btn2{
+    color: aliceblue;
+  }
+  .btn3{
+    color: rgb(0, 1, 2);
+  }
+  .scroll
+{
+  width: 5px;
+  height: 10px;
+Overflow-x:scroll;
+}
+
+  

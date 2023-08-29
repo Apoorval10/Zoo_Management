@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <a href="\login\first.html"><button class="btn btn1">back</button></a>
+    <a href="\login\zoo\visitordetails.php"><button class="btn btn2">view details</button></a>
+    <div class="center">
+        <h1>ADD EMPLOYEE DETAILS</h1>
+        <form action="visitors.php" method="post">
+            <div class="txt_field">
+                <p><strong>TICKET NUMBER:</strong></p>
+                <input type="text" name="TICKET_NO" >
+            </div>
+            <div class="txt_field">
+                <p><strong>NAME:</strong></p>
+                <input type="text" name="NAME">
+            </div>
+            <div  class="txt_field">
+                <p><strong>PHONE:</strong></p>
+                <input type="text" name="PHONE">   
+            </div>
+            <div class="drop"> 
+                <p><strong>DATE:</strong></p>
+                <input id="date"type="date" name="V_DATE"   >
+            </div>
+            <div class="drop">
+                <p><strong>TIME:</strong></p>
+                <input type="time" name="V_TIME">   
+            </div>
+            <div  class="txt_field">
+                <p><strong>EMPLOYEE ID:</strong></p>
+                <input type="text" name="E_ID">   
+            </div>
+
+            <input type="submit" value="ADD"> 
+        </form>
+    </div>
+</body>
+</html>
